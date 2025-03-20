@@ -283,25 +283,22 @@
 </style>
 
    <!-- Top Feature End -->
-
-<section id="about">
+   <section id="about">
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="row g-5 align-items-end">
+            <div class="row g-5 align-items-center">
                 <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" src="img/domestic.jpg" alt="Our cleaning professionals at work">
+                    <img class="img-fluid rounded w-100 mb-4 mb-md-0" src="img/domestic.jpg" alt="Our cleaning professionals at work">
                 </div>
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
-                  
                     <p class="text-primary mb-4">Perfect Trading Cleaning</p>
                     <h1 class="display-5 mb-4">Premium Cleaning & Domestic Services</h1>
                     <p class="mb-4">At Perfect Trading Cleaning Services, we offer professional cleaning solutions for homes, offices, and vehicles. We also provide trained domestic workers to assist with all your household needs. Our services include garden maintenance, office cleaning, mobile car wash, and more. With a focus on honesty, integrity, and customer satisfaction, we ensure exceptional service every time.</p>
-                  
                     <a class="btn btn-primary py-3 px-4" href="#contact">Contact Us</a>
                 </div>
                 <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row g-5">
+                    <div class="row g-4 mt-3 mt-lg-0">
                         <div class="col-12 col-sm-6 col-lg-12">
                             <div class="border-start ps-4">
                                 <i class="fa fa-award fa-3x text-primary mb-3"></i>
@@ -310,7 +307,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-lg-12">
-                            <div class="border-start ps-4">
+                            <div class="border-start ps-4 mt-4 mt-sm-0 mt-lg-4">
                                 <i class="fa fa-thumbs-up fa-3x text-primary mb-3"></i>
                                 <h4 class="mb-3">100% Satisfaction</h4>
                                 <span>If you're not completely satisfied, we'll re-clean at no additional cost.</span>
@@ -320,8 +317,44 @@
                 </div>
             </div>
         </div>
-    </div> 
-    <!-- About End -->
+    </div>
+
+    <style>
+        @media (max-width: 991.98px) {
+            #about .display-5 {
+                font-size: 1.8rem;
+            }
+            
+            #about .border-start {
+                margin-top: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 767.98px) {
+            #about .display-5 {
+                font-size: 1.5rem;
+            }
+            
+            #about .row.g-4 {
+                margin-top: 1rem !important;
+            }
+        }
+        @media (max-width: 991.98px) {
+    #about img.img-fluid {
+        max-width: 75%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #about img.img-fluid {
+        max-width: 60%;
+        height: auto;
+    }
+}
+
+    </style>
+</section>
 
     <!-- Vision and Mission Start -->
     <div class="container-xxl py-5">
@@ -342,8 +375,7 @@
 
 </section>
 
-</section>
-<section id="services">
+</section><section id="services">
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -352,92 +384,114 @@
                 <h1 class="display-5 mb-5">Expert Cleaning Services Tailored for You</h1>
             </div>
             <div class="row g-4">
-         <!-- House Cleaning Service -->
-<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="service-item rounded d-flex h-100">
-        <div class="service-img rounded">
-            <img class="img-fluid" src="house cleaning.jpg" alt="Professional house cleaning service">
-        </div>
-        <div class="service-text rounded p-5">
-            <h4 class="mb-3">House Cleaning</h4>
-            <p class="service-description mb-4">We offer comprehensive home cleaning including deep cleaning, dusting, mopping, and sanitization for a spotless living environment.</p>
+                <!-- House Cleaning Service -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded d-flex flex-column h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="house cleaning.jpg" alt="Professional house cleaning service">
+                        </div>
+                        <div class="service-text rounded p-4 p-lg-5">
+                            <h4 class="mb-3">House Cleaning</h4>
+                            <p class="service-description mb-4">We offer comprehensive home cleaning including deep cleaning, dusting, mopping, and sanitization for a spotless living environment.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Office Cleaning Service -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded d-flex flex-column h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="office.jpg" alt="Professional office cleaning service">
+                        </div>
+                        <div class="service-text rounded p-4 p-lg-5">
+                            <h4 class="mb-3">Office Cleaning</h4>
+                            <p class="service-description mb-4">Maintain a clean, fresh, and professional workspace with our commercial cleaning services tailored for businesses of all sizes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile Car Wash Service -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded d-flex flex-column h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="mobile car wash.jpg" alt="Mobile car wash and detailing service">
+                        </div>
+                        <div class="service-text rounded p-4 p-lg-5">
+                            <h4 class="mb-3">Mobile Car Wash</h4>
+                            <p class="service-description mb-4">We bring the car wash to your location with premium exterior washing and interior detailing services for vehicles of all types.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Garden Services -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded d-flex flex-column h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="garden.jpg" alt="Professional garden and lawn maintenance">
+                        </div>
+                        <div class="service-text rounded p-4 p-lg-5">
+                            <h4 class="mb-3">Garden Services</h4>
+                            <p class="service-description mb-4">From lawn mowing to landscaping and garden maintenance, our team ensures your outdoor space looks beautiful throughout the year.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Domestic Workers -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded d-flex flex-column h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="domestic.jpg" alt="Trained domestic workers for household help">
+                        </div>
+                        <div class="service-text rounded p-4 p-lg-5">
+                            <h4 class="mb-3">Domestic Workers</h4>
+                            <p class="service-description mb-4">We provide vetted and trained domestic workers for daily or weekly assistance with household chores and cleaning tasks.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Courier & Transport -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded d-flex flex-column h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="courier.jpg" alt="Courier and transportation services">
+                        </div>
+                        <div class="service-text rounded p-4 p-lg-5">
+                            <h4 class="mb-3">Courier & Transport</h4>
+                            <p class="service-description mb-4">From local deliveries to trailer hire and small moves, we offer reliable and affordable transportation solutions in Germiston.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
-<!-- Office Cleaning Service -->
-<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-    <div class="service-item rounded d-flex h-100">
-        <div class="service-img rounded">
-            <img class="img-fluid" src="#" alt="Professional office cleaning service">
-            <img class="img-fluid" src="office.jpg" alt="Professional house cleaning service">
-        </div>
-        <div class="service-text rounded p-5">
-            <h4 class="mb-3">Office Cleaning</h4>
-            <p class="service-description mb-4">Maintain a clean, fresh, and professional workspace with our commercial cleaning services tailored for businesses of all sizes.</p>
-        </div>
-    </div>
-</div>
+    <style>
+        .service-description {
+            color: white !important;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7) !important;
+        }
 
-<!-- Mobile Car Wash Service -->
-<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-    <div class="service-item rounded d-flex h-100">
-        <div class="service-img rounded">
-            <img class="img-fluid" src="mobile car wash.jpg" alt="Mobile car wash and detailing service">
-        </div>
-        <div class="service-text rounded p-5">
-            <h4 class="mb-3">Mobile Car Wash</h4>
-            <p class="service-description mb-4">We bring the car wash to your location with premium exterior washing and interior detailing services for vehicles of all types.</p>
-        </div>
-    </div>
-</div>
+        .service-item {
+            flex-direction: column !important;
+        }
 
-<!-- Garden Services -->
-<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="service-item rounded d-flex h-100">
-        <div class="service-img rounded">
-            <img class="img-fluid" src="garden.jpg" alt="Professional garden and lawn maintenance">
-        </div>
-        <div class="service-text rounded p-5">
-            <h4 class="mb-3">Garden Services</h4>
-            <p class="service-description mb-4">From lawn mowing to landscaping and garden maintenance, our team ensures your outdoor space looks beautiful throughout the year.</p>
-        </div>
-    </div>
-</div>
+        .service-img {
+            width: 100%;
+            overflow: hidden;
+        }
 
-<!-- Domestic Workers -->
-<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-    <div class="service-item rounded d-flex h-100">
-        <div class="service-img rounded">
-            <img class="img-fluid" src="domestic.jpg" alt="Trained domestic workers for household help">
-        </div>
-        <div class="service-text rounded p-5">
-            <h4 class="mb-3">Domestic Workers</h4>
-            <p class="service-description mb-4">We provide vetted and trained domestic workers for daily or weekly assistance with household chores and cleaning tasks.</p>
-        </div>
-    </div>
-</div>
+        .service-img img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
 
-<!-- Courier & Transport -->
-<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-    <div class="service-item rounded d-flex h-100">
-        <div class="service-img rounded">
-            <img class="img-fluid" src="courier.jpg" alt="Courier and transportation services">
-        </div>
-        <div class="service-text rounded p-5">
-            <h4 class="mb-3">Courier & Transport</h4>
-            <p class="service-description mb-4">From local deliveries to trailer hire and small moves, we offer reliable and affordable transportation solutions in Germiston.</p>
-        </div>
-    </div>
-</div>
-
-<style>
-    .service-description {
-        color: white !important; /* Ensures the text is white and overrides other color settings */
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7) !important; /* Dark drop shadow */
-    }
-</style>
-
+        @media (max-width: 767.98px) {
+            .service-text {
+                padding: 1rem !important;
+            }
+        }
+    </style>
 </section>
 
 <section id="maila">
@@ -446,37 +500,62 @@
         <h2 class="q-maila-title">MAILA TOURS & SHUTTLE</h2>
         <p class="q-maila-subtitle">"Anywhere" • "Anyday" • "Whenever"</p>
     
-        <div class="q-maila-images d-flex justify-content-center gap-3">
+        <div class="q-maila-images">
             <img src="nissan1.avif" alt="Shuttle Service 1" class="img-fluid">
             <img src="nissan2..avif" alt="Shuttle Service 2" class="img-fluid">
         </div>
     
         <p class="q-maila-quote"></p>
     </div>
-<style>
-    .q-maila-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
 
-.q-maila-images img {
-    width: 300px; /* Adjust as needed */
-    height: auto;
-    border-radius: 10px;
-}
+    <style>
+        .q-maila-container {
+            max-width: 100%;
+            padding: 20px;
+            margin: 0 auto;
+        }
 
-.q-maila-images {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 20px 0;
-}
+        .q-maila-title {
+            font-size: 2rem;
+        }
 
-</style>    
-</section>   
+        .q-maila-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
 
+        .q-maila-images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .q-maila-images img {
+            width: 300px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 767.98px) {
+            .q-maila-images {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .q-maila-title {
+                font-size: 1.5rem;
+            }
+
+            .q-maila-subtitle {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</section>
 <section id="contact">
     <!-- Contact Form Start -->
     <div class="container-fluid quote my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-2.jpg">
